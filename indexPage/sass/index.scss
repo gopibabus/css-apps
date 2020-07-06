@@ -1,0 +1,72 @@
+$site_background_color: #040e27;
+$menu_text_color: white;
+$hover_color: #0175e0;
+
+body {
+  background: $site_background_color;
+  header {
+    div.container {
+      nav.navbar {
+        background-color: $site_background_color;
+        a.navbar-brand {
+          color: $menu_text_color;
+        }
+      }
+      nav.nav {
+        a.nav-link {
+          color: $menu_text_color;
+        }
+        a:hover {
+          color: $hover_color;
+        }
+      }
+    }
+  }
+
+  section {
+    div.jumbotron-fluid {
+      background: $site_background_color;
+      div.container {
+        h4 {
+          color: $hover_color;
+        }
+        h6 {
+          color: #ffa509;
+          span {
+            color: #a6c3cc;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    div.container {
+      div.row {
+        div.col {
+          h2 {
+            a {
+              color: $menu_text_color;
+            }
+            a:hover {
+              color: $hover_color;
+            }
+          }
+          ul.nav {
+            a {
+              i {
+                color: $menu_text_color;
+              }
+            }
+            a.nav-link {
+              color: $menu_text_color;
+            }
+            a:hover {
+              color: $hover_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
