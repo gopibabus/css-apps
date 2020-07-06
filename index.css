@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+h1 {
+	text-align: center;
+	font: 60px 'Bangers', cursive;
+}
+
+body {
+	display: block;
+	background: #333;
+	color: #fff;
+	margin: 0px auto;
+}
+
+#card-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: 'Pacifico', cursive;
+}
+
+.card {
+	display: inline-block;
+	min-height: 250px;
+	max-height: 250px;
+	max-width: 300px;
+	min-width: 300px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+	padding: 10px 10px 20px 10px;
+	background-color: #fff;
+	color: #333;
+	word-wrap: break-word;
+}
+.card-description {
+	min-height: 100px;
+	max-height: 100px;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	word-wrap: break-word;
+}
+
+.btn {
+	padding: 10px 15px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 14px;
+	font-family: 'Pacifico', cursive;
+	outline: none;
+	text-decoration: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
