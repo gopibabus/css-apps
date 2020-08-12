@@ -46,6 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
 			description: 'This is a timeline site built using pure CSS and HTML.',
 			link: './timeline/',
 		},
+		{
+			name: 'A 404 Error Page',
+			description: 'This is a 404 error page built using pure CSS and HTML.',
+			link: './404-page/',
+		},
 	];
 	projects.forEach((project) => {
 		let card = `
